@@ -31,21 +31,9 @@ export const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            Bring your energy — let's strike some fun together!
+            Bring your energy & appetite — let's strike, snack, and celebrate together!
           </motion.p>
 
-          <motion.p
-            className="text-muted-foreground text-sm"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-          >
-            Made with 💜 for Aditya's special day
-          </motion.p>
-
-          {/* Decorative line */}
-          <div className="w-32 h-0.5 mx-auto bg-gradient-to-r from-transparent via-neon-purple to-transparent" />
         </motion.div>
       </div>
 

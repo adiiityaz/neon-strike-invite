@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { MapPin, ExternalLink } from 'lucide-react';
 
 export const VenueMap = () => {
-  const mapUrl = "https://www.google.com/maps/search/?api=1&query=Galaxy+Blue+Sapphire+Plaza+Gaur+City+Sector+4";
+  const mapUrl = "https://maps.app.goo.gl/KwWfiUtd1hBWUV2y6";
   
   return (
     <section className="py-20 px-4 relative">
@@ -13,7 +13,7 @@ export const VenueMap = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <span className="gradient-text">Find Us Here</span>
+          <span className="gradient-text">Come Hereee !!!</span>
         </motion.h2>
 
         <motion.div

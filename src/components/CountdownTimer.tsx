@@ -8,7 +8,8 @@ interface TimeLeft {
   seconds: number;
 }
 
-const targetDate = new Date('2026-01-04T00:00:00');
+// Countdown target: party day at 11:00 AM local time
+const targetDate = new Date('2026-01-04T11:00:00');
 
 export const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });

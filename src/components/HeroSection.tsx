@@ -113,7 +113,7 @@ export const HeroSection = ({ guestName }: HeroSectionProps) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Let's roll, strike & celebrate!
+          Let's roll, strike & celebrate with cafe bites at Cafe TGH!
         </motion.p>
       </motion.div>
 

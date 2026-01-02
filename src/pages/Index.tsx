@@ -2,13 +2,10 @@ import { useEffect, useState } from 'react';
 import { HeroSection } from '@/components/HeroSection';
 import { CountdownTimer } from '@/components/CountdownTimer';
 import { EventDetails } from '@/components/EventDetails';
-import { HighlightsSection } from '@/components/HighlightsSection';
 import { VenueMap } from '@/components/VenueMap';
-import { QRCodeSection } from '@/components/QRCodeSection';
 import { WhatsAppShare } from '@/components/WhatsAppShare';
 import { MusicToggle } from '@/components/MusicToggle';
 import { ThemeToggle } from '@/components/ThemeToggle';
-import { CTASection } from '@/components/CTASection';
 import { Footer } from '@/components/Footer';
 
 const Index = () => {
@@ -41,10 +38,7 @@ const Index = () => {
       </section>
 
       <EventDetails />
-      <HighlightsSection />
       <VenueMap />
-      <QRCodeSection />
-      <CTASection />
       <Footer />
 
       {/* SEO Meta Tags */}

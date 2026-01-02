@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, GamepadIcon, Building2 } from 'lucide-react';
+import { Calendar, Clock, MapPin, GamepadIcon, Building2 } from 'lucide-react';
 
 const details = [
   {
@@ -7,6 +7,12 @@ const details = [
     label: 'Date',
     value: '04 January 2026',
     color: 'neon-purple',
+  },
+  {
+    icon: Clock,
+    label: 'Time',
+    value: '11:00 AM onwards',
+    color: 'neon-yellow',
   },
   {
     icon: GamepadIcon,
@@ -19,6 +25,12 @@ const details = [
     label: 'Venue',
     value: 'Amoeba Gaming Zone',
     color: 'neon-blue',
+  },
+  {
+    icon: Building2,
+    label: 'Cafe',
+    value: 'Cafe TGH - Bar & Terrace Dining',
+    color: 'neon-purple',
   },
   {
     icon: MapPin,

@@ -37,7 +37,7 @@ export const HighlightsSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <span className="gradient-text">What's in Store</span>
+          <span className="gradient-text">Join Here</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -73,19 +73,20 @@ export const HighlightsSection = () => {
           ))}
         </div>
 
-        {/* Cafe Update */}
+        {/* Cafe timing */}
         <motion.div
           className="mt-12 glass-card p-6 text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 0.4 }}
         >
           <span className="text-2xl mb-3 inline-block">☕🍰</span>
           <p className="text-lg shimmer-text font-medium">
-            Cafe venue will be shared soon
+            Cafe TGH - Bar & Terrace Dining | 11 AM onwards
           </p>
         </motion.div>
+
       </div>
     </section>
   );
