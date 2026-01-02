@@ -17,7 +17,7 @@ const details = [
   {
     icon: GamepadIcon,
     label: 'Activity',
-    value: 'Bowling Night 🎳',
+    value: 'Bowling 🎳 + Daru 🍸',
     color: 'neon-pink',
   },
   {
